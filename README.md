@@ -65,6 +65,8 @@ Run the Fintech Finder app in the terminal by using:
 
 'streamlit run fintech_finder.py'
 
+Review the Screen Captures from Etherscan of customer address balance and history, transaction details, and recipient address balance and history, following a successful run of the program. The screen captures are included in this repository.
+
 ---
 
 ## Contributors
