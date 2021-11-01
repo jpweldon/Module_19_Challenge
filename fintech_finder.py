@@ -137,7 +137,7 @@ account = generate_account()
 ##########################################
 
 # Write the client's Ethereum account address to the sidebar
-st.sidebar.write(account.address)
+st.sidebar.write("Ethereum account address: ", account.address)
 
 ##########################################
 # Step 1 - Part 5:
@@ -148,7 +148,7 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-st.sidebar.write(get_balance(account.address)) # In this app, account.address is returning the address instead of manual entry # get_balance("0x...") 
+st.sidebar.write("Ether balance: ", get_balance(account.address)) # In this app, account.address is returning the address instead of manual entry # get_balance("0x...") 
 
 ##########################################
 
@@ -243,7 +243,7 @@ wage = candidate_database[person][3] * hours
 
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
-st.sidebar.write(wage)
+st.sidebar.write("Wage: ", wage)
 
 ##########################################
 # Step 2 - Part 2:
